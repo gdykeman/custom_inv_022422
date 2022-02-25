@@ -10,4 +10,4 @@
 
     - name: show env var
       debug:
-        msg: "This is from extra vars {{ HASHI_VAULT_EXTRAVAR }}"
+        msg: "This is from extra vars {{ hashi_vault_extravar }}"
