@@ -6,8 +6,8 @@
   tasks:
     - name: show env var
       debug:
-        msg: "This is from env vars {{ lookup('env', 'HASHI_VAULT_ADDR') }}"
+        msg: "This is from env vars {{ lookup('env', 'HASHI_VAULT_ENV') }}"
 
     - name: show env var
       debug:
-        msg: "This is from extra vars {{ HASHI_VAULT_ADDR }}"
+        msg: "This is from extra vars {{ HASHI_VAULT_EXTRAVAR }}"
