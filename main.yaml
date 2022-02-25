@@ -6,7 +6,7 @@
   tasks:
     - name: show env var
       debug:
-        msg: "This is from env vars {{ lookup('env', 'HASHI_VAULT_ENV') }}"
+        msg: "'{{ lookup('env', 'HASHI_VAULT_ENV') }}' is the environment variable"
 
     - name: show env var
       debug:
