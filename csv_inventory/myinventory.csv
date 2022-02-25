@@ -1,0 +1,12 @@
+Device Name,Mgmt IP,Platform
+ari7020-w0-bf941-acs2-mgmt-1,192.168.130.4/32,eos
+ari7020-w0-me861a-acs1-mgmt-1,192.168.130.3/32,eos
+ari7020-w1-1b451-acs2-mgmt-1,192.168.138.2/32,eos
+ari7020-w1-5d352-acs1-mgmt-1,192.168.138.3/32,eos
+ari7020-w2-1b549b-acs2-mgmt-1,192.168.146.4/32,eos
+ari7020-w2-5d517-acs1-mgmt-1,192.168.146.3/32,eos
+ari7020-w3-1b749b-acs2-mgmt-1,192.168.154.4/32,eos
+ari7020-w3-5d715-acs1-mgmt-1,192.168.154.3/32,eos
+ari7020-w4-1b940-acs2-mgmt-1,192.168.162.4/32,eos
+ari7020-w4-5d915-acs1-mgmt-1,192.168.162.3/32,eos
+ari7020-w5-1c145-acs2-mgmt-1,192.168.170.4/32,eos
