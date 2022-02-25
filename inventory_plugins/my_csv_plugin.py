@@ -49,8 +49,8 @@ consume
         #Initialize a dict
         inventory_data = {}
         #Read the CSV and add it to the dictionary
-        with open(inventory_file, 'r') as fh:
-            csvdict = csv.DictReader(fh)
+        with open(inventory_file, 'r') as csvfile:
+            csvdict = csv.DictReader(csvfile)
             for rows in csvdict:
                 hostname = rows['Device Name']
                 inventory_data[hostname] = rows
