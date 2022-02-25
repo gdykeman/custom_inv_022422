@@ -1,0 +1,13 @@
+---
+- name: test env var
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: show env var
+      debug:
+        msg: "This is from env vars {{ lookup('env', 'HASHI_VAULT_ADDR') }}"
+
+    - name: show env var
+      debug:
+        msg: "This is from extra vars {{ HASHI_VAULT_ADDR }}"
