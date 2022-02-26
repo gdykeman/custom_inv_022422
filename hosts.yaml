@@ -3,391 +3,391 @@ all:
     arista:
       hosts:
         ari7020-w0-bf941-acs2-mgmt-1:
-          ansible_host: 10.232.130.4/32
+          ansible_host: 10.232.130.4
           ansible_network_os: eos
         ari7020-w0-me861a-acs1-mgmt-1:
-          ansible_host: 10.232.130.3/32
+          ansible_host: 10.232.130.3
           ansible_network_os: eos
         ari7020-w1-1b451-acs2-mgmt-1:
-          ansible_host: 10.232.138.4/32
+          ansible_host: 10.232.138.4
           ansible_network_os: eos
         ari7020-w1-5d352-acs1-mgmt-1:
-          ansible_host: 10.232.138.3/32
+          ansible_host: 10.232.138.3
           ansible_network_os: eos
         ari7020-w2-1b549b-acs2-mgmt-1:
-          ansible_host: 10.232.146.4/32
+          ansible_host: 10.232.146.4
           ansible_network_os: eos
         ari7020-w2-5d517-acs1-mgmt-1:
-          ansible_host: 10.232.146.3/32
+          ansible_host: 10.232.146.3
           ansible_network_os: eos
         ari7020-w3-1b749b-acs2-mgmt-1:
-          ansible_host: 10.232.154.4/32
+          ansible_host: 10.232.154.4
           ansible_network_os: eos
         ari7020-w3-5d715-acs1-mgmt-1:
-          ansible_host: 10.232.154.3/32
+          ansible_host: 10.232.154.3
           ansible_network_os: eos
         ari7020-w4-1b940-acs2-mgmt-1:
-          ansible_host: 10.232.162.4/32
+          ansible_host: 10.232.162.4
           ansible_network_os: eos
         ari7020-w4-5d915-acs1-mgmt-1:
-          ansible_host: 10.232.162.3/32
+          ansible_host: 10.232.162.3
           ansible_network_os: eos
         ari7020-w5-1c145-acs2-mgmt-1:
-          ansible_host: 10.232.170.4/32
+          ansible_host: 10.232.170.4
           ansible_network_os: eos
         ari7020-w5-5d112-acs1-mgmt-1:
-          ansible_host: 10.232.170.3/32
+          ansible_host: 10.232.170.3
           ansible_network_os: eos
         ari7050-rdf-j17l-scs2-mgmt-1:
-          ansible_host: 10.232.175.4/32
+          ansible_host: 10.232.175.4
           ansible_network_os: eos
         ari7050-w1-1b479-scs1-mgmt-1:
-          ansible_host: 10.232.175.3/32
+          ansible_host: 10.232.175.3
           ansible_network_os: eos
         ari7504-rdf-j17l-bcs2-0109-1:
-          ansible_host: 10.232.175.13/32
+          ansible_host: 10.232.175.13
           ansible_network_os: eos
         ari7504-rdf-j17l-scs2-0109-1:
-          ansible_host: 10.232.175.11/32
+          ansible_host: 10.232.175.11
           ansible_network_os: eos
         ari7504-w0-bf941-acs2-0304-1:
-          ansible_host: 10.232.131.126/32
+          ansible_host: 10.232.131.126
           ansible_network_os: eos
         ari7504-w0-me861a-acs1-0301-1:
-          ansible_host: 10.232.133.126/32
+          ansible_host: 10.232.133.126
           ansible_network_os: eos
         ari7504-w1-1b451-acs2-0101-1:
-          ansible_host: 10.232.139.62/32
+          ansible_host: 10.232.139.62
           ansible_network_os: eos
         ari7504-w1-1b479-bcs1-0308-1:
-          ansible_host: 10.232.175.12/32
+          ansible_host: 10.232.175.12
           ansible_network_os: eos
         ari7504-w1-1b479-scs1-0308-1:
-          ansible_host: 10.232.175.10/32
+          ansible_host: 10.232.175.10
           ansible_network_os: eos
         ari7504-w1-5d352-acs1-0203-1:
-          ansible_host: 10.232.140.190/32
+          ansible_host: 10.232.140.190
           ansible_network_os: eos
         ari7504-w2-1b549b-acs2-0206-1:
-          ansible_host: 10.232.150.190/32
+          ansible_host: 10.232.150.190
           ansible_network_os: eos
         ari7504-w2-5d517-acs1-0304-1:
-          ansible_host: 10.232.148.190/32
+          ansible_host: 10.232.148.190
           ansible_network_os: eos
         ari7504-w3-1b749b-acs2-0104-1:
-          ansible_host: 10.232.158.190/32
+          ansible_host: 10.232.158.190
           ansible_network_os: eos
         ari7504-w3-5d715-acs1-0303-1:
-          ansible_host: 10.232.158.254/32
+          ansible_host: 10.232.158.254
           ansible_network_os: eos
         ari7504-w4-1b940-acs2-0105-1:
-          ansible_host: 10.232.163.62/32
+          ansible_host: 10.232.163.62
           ansible_network_os: eos
         ari7504-w4-5d915-acs1-0304-1:
-          ansible_host: 10.232.164.190/32
+          ansible_host: 10.232.164.190
           ansible_network_os: eos
         ari7504-w5-1c145a-acs2-0105-1:
-          ansible_host: 10.232.171.202/32
+          ansible_host: 10.232.171.202
           ansible_network_os: eos
         ari7504-w5-5d112-acs1-0304-1:
-          ansible_host: 10.232.172.138/32
+          ansible_host: 10.232.172.138
           ansible_network_os: eos
     aruba:
       hosts:
         aru3810-w2-4c649-eas-0103-1s3:
-          ansible_host: 10.232.148.13/32
+          ansible_host: 10.232.148.13
           ansible_network_os: aruba
         aru3810-w2-4c686-eas-0103-1s3:
-          ansible_host: 10.232.148.77/32
+          ansible_host: 10.232.148.77
           ansible_network_os: aruba
         aru3810-w2-4d649-eas-0103-1s3:
-          ansible_host: 10.232.149.13/32
+          ansible_host: 10.232.149.13
           ansible_network_os: aruba
         aru3810-w2-4d687-eas-0103-1s3:
-          ansible_host: 10.232.149.77/32
+          ansible_host: 10.232.149.77
           ansible_network_os: aruba
         aru3810-w2-4e645c-eas-0103-1s3:
-          ansible_host: 10.232.150.13/32
+          ansible_host: 10.232.150.13
           ansible_network_os: aruba
         aru3810-w2-4e689a-eas-0103-1s3:
-          ansible_host: 10.232.150.77/32
+          ansible_host: 10.232.150.77
           ansible_network_os: aruba
         aru3810-w0-1j6tr-eas-0102-1s4:
-          ansible_host: 10.232.133.202/32
+          ansible_host: 10.232.133.202
           ansible_network_os: aruba
         aru3810-w0-1j7tr-eas-0103-1s5:
-          ansible_host: 10.232.133.138/32
+          ansible_host: 10.232.133.138
           ansible_network_os: aruba
         aru3810-w0-1j7tr-eub-mgmt-1sf1:
-          ansible_host: 10.232.133.197/32
+          ansible_host: 10.232.133.197
           ansible_network_os: aruba
         aru3810-w0-1k685d-eas-0102-1s3:
-          ansible_host: 10.232.133.203/32
+          ansible_host: 10.232.133.203
           ansible_network_os: aruba
         aru3810-w0-1k6tr-eas-0102-1s2:
-          ansible_host: 10.232.133.204/32
+          ansible_host: 10.232.133.204
           ansible_network_os: aruba
         aru3810-w0-bb758b-eas-0102-1s2:
-          ansible_host: 10.232.130.202/32
+          ansible_host: 10.232.130.202
           ansible_network_os: aruba
         aru3810-w0-bb918-c2-eas-0103-1s4:
-          ansible_host: 10.232.131.75/32
+          ansible_host: 10.232.131.75
           ansible_network_os: aruba
         aru3810-w0-bb918-c2-eas-0104-1s1:
-          ansible_host: 10.232.131.76/32
+          ansible_host: 10.232.131.76
           ansible_network_os: aruba
         aru3810-w0-bc851-eas-0103-1s4:
-          ansible_host: 10.232.131.78/32
+          ansible_host: 10.232.131.78
           ansible_network_os: aruba
         aru3810-w0-bc851-eas-0103-2s2:
-          ansible_host: 10.232.131.79/32
+          ansible_host: 10.232.131.79
           ansible_network_os: aruba
         aru3810-w0-bc953a-c2-eas-0203-1s2:
-          ansible_host: 10.232.131.80/32
+          ansible_host: 10.232.131.80
           ansible_network_os: aruba
         aru3810-w0-bd1038b-c2-eas-0103-1s3:
-          ansible_host: 10.232.131.77/32
+          ansible_host: 10.232.131.77
           ansible_network_os: aruba
         aru3810-w0-bd1039-c2-eas-0103-1s3_copy:
-          ansible_host: 10.232.131.81/32
+          ansible_host: 10.232.131.81
           ansible_network_os: aruba
         aru3810-w0-bd846a-eas-0103-1s3:
-          ansible_host: 10.232.130.203/32
+          ansible_host: 10.232.130.203
           ansible_network_os: aruba
         aru3810-w0-be753-c2-eas-0000-1s5:
-          ansible_host: 10.232.130.74/32
+          ansible_host: 10.232.130.74
           ansible_network_os: aruba
         aru3810-w0-be795-eas-0103-1s3:
-          ansible_host: 10.232.130.204/32
+          ansible_host: 10.232.130.204
           ansible_network_os: aruba
         aru3810-w0-be809-eas-0103-1s2:
-          ansible_host: 10.232.130.205/32
+          ansible_host: 10.232.130.205
           ansible_network_os: aruba
         aru3810-w0-be843a-eas-0103-1s3:
-          ansible_host: 10.232.130.206/32
+          ansible_host: 10.232.130.206
           ansible_network_os: aruba
         aru3810-w0-be861a-c2-eas-0103-1s2:
-          ansible_host: 10.232.131.82/32
+          ansible_host: 10.232.131.82
           ansible_network_os: aruba
         aru3810-w0-be878-eas-0102-1s4:
-          ansible_host: 10.232.131.83/32
+          ansible_host: 10.232.131.83
           ansible_network_os: aruba
         aru3810-w0-be883-c2-eas-0102-1s3:
-          ansible_host: 10.232.131.84/32
+          ansible_host: 10.232.131.84
           ansible_network_os: aruba
         aru3810-w0-be929-c2-eas-0103-1s3:
-          ansible_host: 10.232.131.85/32
+          ansible_host: 10.232.131.85
           ansible_network_os: aruba
         aru3810-w0-be935-c2-eas-0103-1s3:
-          ansible_host: 10.232.131.86/32
+          ansible_host: 10.232.131.86
           ansible_network_os: aruba
         aru3810-w0-be971-c2-eas-0103-1s3:
-          ansible_host: 10.232.131.87/32
+          ansible_host: 10.232.131.87
           ansible_network_os: aruba
         aru3810-w0-be975-c2-eas-0103-1s3:
-          ansible_host: 10.232.131.74/32
+          ansible_host: 10.232.131.74
           ansible_network_os: aruba
         aru3810-w0-bf1000-eas-0103-1s3:
-          ansible_host: 10.232.131.88/32
+          ansible_host: 10.232.131.88
           ansible_network_os: aruba
         aru3810-w0-bf656-eas-0103-1s2:
-          ansible_host: 10.232.130.207/32
+          ansible_host: 10.232.130.207
           ansible_network_os: aruba
         aru3810-w0-bf681-c2-eas-0000-1s5:
-          ansible_host: 10.232.130.138/32
+          ansible_host: 10.232.130.138
           ansible_network_os: aruba
         aru3810-w0-bf713-eub-mgmt-2sf1:
-          ansible_host: 10.232.130.198/32
+          ansible_host: 10.232.130.198
           ansible_network_os: aruba
         aru3810-w0-bf727-c2-eas-0000-1s4:
-          ansible_host: 10.232.130.208/32
+          ansible_host: 10.232.130.208
           ansible_network_os: aruba
         aru3810-w0-bf735-c2-eas-0000-1s4:
-          ansible_host: 10.232.130.209/32
+          ansible_host: 10.232.130.209
           ansible_network_os: aruba
         aru3810-w0-bf736a-eas-0102-1s4:
-          ansible_host: 10.232.134.74/32
+          ansible_host: 10.232.134.74
           ansible_network_os: aruba
         aru3810-w0-bf736a-eas-0202-1s3:
-          ansible_host: 10.232.134.75/32
+          ansible_host: 10.232.134.75
           ansible_network_os: aruba
         aru3810-w0-bf889d-eas-0453-1s4:
-          ansible_host: 10.232.130.210/32
+          ansible_host: 10.232.130.210
           ansible_network_os: aruba
         aru3810-w0-bf913b-eas-0202-1s5:
-          ansible_host: 10.232.131.10/32
+          ansible_host: 10.232.131.10
           ansible_network_os: aruba
         aru3810-w0-bf913b-eas-0202-2s3:
-          ansible_host: 10.232.131.11/32
+          ansible_host: 10.232.131.11
           ansible_network_os: aruba
         aru3810-w0-bf941-eub-mgmt-2sf2:
-          ansible_host: 10.232.131.70/32
+          ansible_host: 10.232.131.70
           ansible_network_os: aruba
         aru3810-w0-bf942-eas-0103-1s3:
-          ansible_host: 10.232.131.89/32
+          ansible_host: 10.232.131.89
           ansible_network_os: aruba
         aru3810-w0-bf949-1d-eas-0105-1s3:
-          ansible_host: 10.232.131.202/32
+          ansible_host: 10.232.131.202
           ansible_network_os: aruba
         aru3810-w0-bf949-eas-0102-1s2:
-          ansible_host: 10.232.131.203/32
+          ansible_host: 10.232.131.203
           ansible_network_os: aruba
         aru3810-w0-bg759-eas-0103-1s3:
-          ansible_host: 10.232.131.138/32
+          ansible_host: 10.232.131.138
           ansible_network_os: aruba
         aru3810-w0-bg848-eas-0102-1s3:
-          ansible_host: 10.232.130.211/32
+          ansible_host: 10.232.130.211
           ansible_network_os: aruba
         aru3810-w0-bg850-eas-0313-1s1:
-          ansible_host: 10.232.132.213/32
+          ansible_host: 10.232.132.213
           ansible_network_os: aruba
         aru3810-w0-bg882b-eas-au12-1s2:
-          ansible_host: 10.232.132.204/32
+          ansible_host: 10.232.132.204
           ansible_network_os: aruba
         aru3810-w0-bg882b-eas-au17-1s2:
-          ansible_host: 10.232.132.205/32
+          ansible_host: 10.232.132.205
           ansible_network_os: aruba
         aru3810-w0-bg926-aes-ae37-1s1:
-          ansible_host: 10.232.129.13/32
+          ansible_host: 10.232.129.13
           ansible_network_os: aruba
         aru3810-w0-bg948-eas-0102-1s3:
-          ansible_host: 10.232.132.209/32
+          ansible_host: 10.232.132.209
           ansible_network_os: aruba
         aru3810-w0-bg952-eas-0102-1s3:
-          ansible_host: 10.232.132.212/32
+          ansible_host: 10.232.132.212
           ansible_network_os: aruba
         aru3810-w0-bh655-eas-0103-1s2:
-          ansible_host: 10.232.134.10/32
+          ansible_host: 10.232.134.10
           ansible_network_os: aruba
         aru3810-w0-bh879a-eas-0103-1s2:
-          ansible_host: 10.232.132.12/32
+          ansible_host: 10.232.132.12
           ansible_network_os: aruba
         aru3810-w0-bh879a-eas-0103-1s4:
-          ansible_host: 10.232.132.11/32
+          ansible_host: 10.232.132.11
           ansible_network_os: aruba
         aru3810-w0-bh879a-eub-mgmt-1sf1:
-          ansible_host: 10.232.132.5/32
+          ansible_host: 10.232.132.5
           ansible_network_os: aruba
         aru3810-w0-bj949-eas-0103-1s5:
-          ansible_host: 10.232.132.13/32
+          ansible_host: 10.232.132.13
           ansible_network_os: aruba
         aru3810-w0-cbrnlab-eas-0101-1s1:
-          ansible_host: 10.232.132.14/32
+          ansible_host: 10.232.132.14
           ansible_network_os: aruba
         aru3810-w0-heliport-eas-0105-1s1:
-          ansible_host: 10.232.133.205/32
+          ansible_host: 10.232.133.205
           ansible_network_os: aruba
         aru3810-w0-ma856a-c2-eas-0103-1s3:
-          ansible_host: 10.232.132.206/32
+          ansible_host: 10.232.132.206
           ansible_network_os: aruba
         aru3810-w0-ma856c-c2-eas-0103-1s3:
-          ansible_host: 10.232.132.207/32
+          ansible_host: 10.232.132.207
           ansible_network_os: aruba
         aru3810-w0-ma932-c2-eas-0103-1s4:
-          ansible_host: 10.232.132.74/32
+          ansible_host: 10.232.132.74
           ansible_network_os: aruba
         aru3810-w0-mb758b-eas-0102-1s1:
-          ansible_host: 10.232.132.214/32
+          ansible_host: 10.232.132.214
           ansible_network_os: aruba
         aru3810-w0-mc846-eas-0102-1s5:
-          ansible_host: 10.232.132.220/32
+          ansible_host: 10.232.132.220
           ansible_network_os: aruba
         aru3810-w0-mc851a-eas-0104-1s4:
-          ansible_host: 10.232.132.138/32
+          ansible_host: 10.232.132.138
           ansible_network_os: aruba
         aru3810-w0-mc851a-eas-0104-2s3:
-          ansible_host: 10.232.132.139/32
+          ansible_host: 10.232.132.139
           ansible_network_os: aruba
         aru3810-w0-md759-eas-0102-1s5:
-          ansible_host: 10.232.132.218/32
+          ansible_host: 10.232.132.218
           ansible_network_os: aruba
         aru3810-w0-md849-eub-mgmt-2sf2:
-          ansible_host: 10.232.132.198/32
+          ansible_host: 10.232.132.198
           ansible_network_os: aruba
         aru3810-w0-me755-c2-eas-0000-1s4:
-          ansible_host: 10.232.133.10/32
+          ansible_host: 10.232.133.10
           ansible_network_os: aruba
         aru3810-w0-me755-c2-eas-0000-2s2:
-          ansible_host: 10.232.133.11/32
+          ansible_host: 10.232.133.11
           ansible_network_os: aruba
         aru3810-w0-me787-eas-0102-1s4:
-          ansible_host: 10.232.132.217/32
+          ansible_host: 10.232.132.217
           ansible_network_os: aruba
         aru3810-w0-me828-eas-0102-1s3:
-          ansible_host: 10.232.132.222/32
+          ansible_host: 10.232.132.222
           ansible_network_os: aruba
         aru3810-w0-me843a-eas-0102-1s2:
-          ansible_host: 10.232.132.215/32
+          ansible_host: 10.232.132.215
           ansible_network_os: aruba
         aru3810-w0-me861a-c2-eas-0103-1s4:
-          ansible_host: 10.232.133.74/32
+          ansible_host: 10.232.133.74
           ansible_network_os: aruba
         aru3810-w0-me876-eas-0102-1s3:
-          ansible_host: 10.232.132.210/32
+          ansible_host: 10.232.132.210
           ansible_network_os: aruba
         aru3810-w0-mf734-eas-0102-1s3:
-          ansible_host: 10.232.134.76/32
+          ansible_host: 10.232.134.76
           ansible_network_os: aruba
         aru3810-w0-mf734-eas-0202-1s3:
-          ansible_host: 10.232.134.77/32
+          ansible_host: 10.232.134.77
           ansible_network_os: aruba
         aru3810-w0-mf761-eas-0103-1s3:
-          ansible_host: 10.232.132.221/32
+          ansible_host: 10.232.132.221
           ansible_network_os: aruba
         aru3810-w0-mf840-eas-0102-1s4:
-          ansible_host: 10.232.132.219/32
+          ansible_host: 10.232.132.219
           ansible_network_os: aruba
         aru3810-w0-mf952-eas-0102-1s4:
-          ansible_host: 10.232.132.211/32
+          ansible_host: 10.232.132.211
           ansible_network_os: aruba
         aru3810-w0-mg665a-eas-0103-1s2:
-          ansible_host: 10.232.132.216/32
+          ansible_host: 10.232.132.216
           ansible_network_os: aruba
         aru3810-w0-mg888a-eas-0102-1s5:
-          ansible_host: 10.232.132.202/32
+          ansible_host: 10.232.132.202
           ansible_network_os: aruba
         aru3810-w0-mg922-eas-0102-1s3:
-          ansible_host: 10.232.132.208/32
+          ansible_host: 10.232.132.208
           ansible_network_os: aruba
         aru3810-w0-mg952c-eas-0102-1s4:
-          ansible_host: 10.232.132.203/32
+          ansible_host: 10.232.132.203
           ansible_network_os: aruba
         aru3810-w0-mh649a-eas-0103-1s2:
-          ansible_host: 10.232.130.212/32
+          ansible_host: 10.232.130.212
           ansible_network_os: aruba
         aru3810-w0-mh881c-eas-0103-1s4:
-          ansible_host: 10.232.132.10/32
+          ansible_host: 10.232.132.10
           ansible_network_os: aruba
         aru3810-w0-mj949-eas-0103-1s3:
-          ansible_host: 10.232.132.15/32
+          ansible_host: 10.232.132.15
           ansible_network_os: aruba
         aru3810-w1-17wide-eas-0201-1s5:
-          ansible_host: 10.232.129.10/32
+          ansible_host: 10.232.129.10
           ansible_network_os: aruba
         aru3810-w1-1a338-eas-0102-1s4:
-          ansible_host: 10.232.138.74/32
+          ansible_host: 10.232.138.74
           ansible_network_os: aruba
         aru3810-w1-1a464-eas-0102-1s1:
-          ansible_host: 10.232.138.138/32
+          ansible_host: 10.232.138.138
           ansible_network_os: aruba
         aru3810-w1-1b350-eas-0102-1s3:
-          ansible_host: 10.232.138.202/32
+          ansible_host: 10.232.138.202
           ansible_network_os: aruba
         aru3810-w1-1b451-eas-0102-1s2:
-          ansible_host: 10.232.139.10/32
+          ansible_host: 10.232.139.10
           ansible_network_os: aruba
         aru3810-w1-1c350-eas-0102-1s3:
-          ansible_host: 10.232.139.74/32
+          ansible_host: 10.232.139.74
           ansible_network_os: aruba
         aru3810-w1-1c352-eas-0102-1s2:
-          ansible_host: 10.232.139.138/32
+          ansible_host: 10.232.139.138
           ansible_network_os: aruba
         aru3810-w1-1c448-eas-0102-1s3:
-          ansible_host: 10.232.139.202/32
+          ansible_host: 10.232.139.202
           ansible_network_os: aruba
         aru3810-w1-1c453a-eas-0102-1s4:
-          ansible_host: 10.232.140.10/32
+          ansible_host: 10.232.140.10
           ansible_network_os: aruba
         aru3810-w1-1d350-eas-0102-1s5:
-          ansible_host: 10.232.140.74/32
+          ansible_host: 10.232.140.74
           ansible_network_os: aruba

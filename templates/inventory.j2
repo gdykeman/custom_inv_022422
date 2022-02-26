@@ -5,7 +5,7 @@ all:
 {% for value in rows['list'] %}
 {% if value['Platform'] == 'eos'%}
         {{ value['Device Name']}}:
-          ansible_host: {{ value['Mgmt IP']}}
+          ansible_host: {{ value['Mgmt IP'].split('/')[0]}}
           ansible_network_os: {{ value['Platform']}}
 {% endif %}
 {% endfor %}
@@ -14,7 +14,7 @@ all:
 {% for value in rows['list'] %}
 {% if value['Platform'] == 'aruba'%}
         {{ value['Device Name']}}:
-          ansible_host: {{ value['Mgmt IP']}}
+          ansible_host: {{ value['Mgmt IP'].split('/')[0]}}
           ansible_network_os: {{ value['Platform']}}
 {% endif %}
 {% endfor %}
