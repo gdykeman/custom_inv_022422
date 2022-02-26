@@ -1,0 +1,15 @@
+---
+- name: test env var
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Read users from CSV file and return a dictionary
+      community.general.read_csv:
+        path: csv_inventory/myinventory.csv
+      register: rows
+    - debug:
+        msg: "{{ rows['list'] }}"
+    - template:
+        src: "inventory.j2"
+        dest: hosts.yaml

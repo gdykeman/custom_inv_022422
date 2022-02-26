@@ -1,0 +1,20 @@
+all:
+  children:
+    arista:
+      hosts:
+{% for value in rows['list'] %}
+{% if value['Platform'] == 'eos'%}
+        {{ value['Device Name']}}:
+          ansible_host: {{ value['Mgmt IP']}}
+          ansible_network_os: {{ value['Platform']}}
+{% endif %}
+{% endfor %}
+    aruba:
+      hosts:
+{% for value in rows['list'] %}
+{% if value['Platform'] == 'aruba'%}
+        {{ value['Device Name']}}:
+          ansible_host: {{ value['Mgmt IP']}}
+          ansible_network_os: {{ value['Platform']}}
+{% endif %}
+{% endfor %}
